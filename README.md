@@ -21,4 +21,4 @@ In this assignment, we started off with a brief review of pandas basics but main
 5. Usage of [`lambda`](https://www.geeksforgeeks.org/applying-lambda-functions-to-pandas-dataframe/)
 
 ### Join data
-1. `merged = prisons_df.merge(states_df, left_on='state', right_on='name')` to join other data. `.merge` is an *inner join* so <ins>rows without a match get discarded</ins>. To do a *left join*, add `how=left` in the parameters to preserve the left column.
+1. `merged = prisons_df.merge(states_df, left_on='state', right_on='name')` to join other data. `.merge` is an **inner join** so <ins>rows without a match get discarded</ins>. To do a **left join**, add `how=left` in the parameters to preserve the left column.
